@@ -1,0 +1,22 @@
+{
+  "name": "support-ticket-bot",
+  "version": "1.0.0",
+  "description": "Discord Support Ticket Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "support",
+    "tickets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.0.3",
+    "mongoose": "^8.19.3"
+  }
+}
