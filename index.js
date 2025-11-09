@@ -391,7 +391,7 @@ async function confirmCloseTicket(interaction) {
     activeTickets.delete(channel.id);
 
     // Marcar ticket como cerrado en base de datos
-    const allData = db.readData();
+    const allData = await db.readData();
     const ticket = allData.tickets.find(t => t.channelId === channel.id);
     if (ticket) {
         db.closeTicket(ticket.id);
@@ -417,3 +417,4 @@ process.on('unhandledRejection', error => {
 
 // Iniciar el bot
 client.login(process.env.DISCORD_TOKEN);
+
