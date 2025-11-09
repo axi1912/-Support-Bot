@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, StringSelectMenuBuilder, ButtonBuilder, ButtonStyle, PermissionFlagsBits, ChannelType, REST, Routes } = require('discord.js');
-const db = require('../Data/db-mongo');
+const db = require('./Data/db-mongo');
 
 const client = new Client({
     intents: [
