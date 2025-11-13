@@ -60,7 +60,6 @@ async function setupSupportPanel(channel) {
         .setColor('#00D9A3')
         .setTitle('🎫 SUPPORT TICKETS')
         .setDescription('Need help? Create a support ticket and our team will assist you!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━')
-        .setThumbnail('https://cdn.discordapp.com/attachments/1309783318031503384/1436578775121920100/fau_get_2.gif')
         .addFields(
             {
                 name: '\n📋 When to Create a Ticket',
@@ -78,7 +77,7 @@ async function setupSupportPanel(channel) {
                 inline: false
             }
         )
-        .setImage('https://cdn.discordapp.com/attachments/1309783318031503384/1436578775121920100/fau_get_2.gif')
+        .setImage('https://cdn.discordapp.com/attachments/1309783318031503384/1438385544043430030/banner_factory.gif?ex=6916b06d&is=69155eed&hm=cc3d8842a292692983ed0ccf4114f3baf53681b386260983a513862de799d17e&')
         .setFooter({ text: '🎫 Support System • We\'re here to help!' })
         .setTimestamp();
 
